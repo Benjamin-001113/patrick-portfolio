@@ -134,7 +134,10 @@ function App() {
               <div className="visual-orbit orbit-two" />
 
               <div className="profile-logo">
-  <img src="/patrick.jpeg" alt="Patrick Benjamin" />
+  <img
+  src={`${process.env.PUBLIC_URL}/patrick.jpeg`}
+  alt="Patrick Benjamin"
+/>
 </div>
 
               <div className="floating-card card-top">
