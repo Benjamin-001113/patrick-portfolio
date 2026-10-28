@@ -302,7 +302,7 @@ function App() {
 
             <a
               className="button button-light"
-              href="engrbenjamin2025@gmail.com"
+              href="mailto:YOUR_engrbenjamin2025@gmail.com"
             >
               Email Me <span>↗</span>
             </a>
