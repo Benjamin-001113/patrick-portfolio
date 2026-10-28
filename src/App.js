@@ -137,6 +137,7 @@ function App() {
   <img
   src={`${process.env.PUBLIC_URL}/patrick.jpeg`}
   alt="Patrick Benjamin"
+  className="profile-picture"
 />
 </div>
 
