@@ -858,8 +858,9 @@ a:focus-visible {
 }
 
 .profile-logo {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
   border-radius: 50%;
   overflow: hidden;
   border: 3px solid #38bdf8;
@@ -876,6 +877,11 @@ a:focus-visible {
   animation: rollProfile 5s linear infinite;
 }
 
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
 @keyframes rollProfile {
   from {
     transform: rotate(0deg);
@@ -884,10 +890,6 @@ a:focus-visible {
   to {
     transform: rotate(360deg);
   }
-}
-.project-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
 }
 
 .project-card:hover {
@@ -1025,3 +1027,6 @@ a:focus-visible {
     font-size: 0.9rem;
   }
 }
+
+
+

@@ -134,11 +134,15 @@ function App() {
               <div className="visual-orbit orbit-two" />
 
               <div className="profile-logo">
-  <img
+  
+<img
   src="https://benjamin-001113.github.io/patrick-portfolio/patrick.jpeg"
   alt="Patrick Benjamin"
-  className="profile-picture"
+  width="200"
+  height='200'
+  style={{ height: "auto", objectFit: "cover" }}
 />
+
 </div>
 
               <div className="floating-card card-top">
@@ -298,7 +302,7 @@ function App() {
 
             <a
               className="button button-light"
-              href="mailto:YOUR_EMAIL@example.com"
+              href="engrbenjamin2025@gmail.com"
             >
               Email Me <span>↗</span>
             </a>
